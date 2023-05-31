@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 
 export default function SetButtons(props) {
     const [isheld, setIsheld] = useState(false);
-  const buttonArray = useState(pushArray());
+  const buttonArray = pushArray()
 
   function getArray() {
     return { id: nanoid(), isheld: isheld };
