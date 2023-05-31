@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root-ctn{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(221, 224, 238);
+    position: relative;
+}
+
+.img-blu{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.img-yellow{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@media(max-width : 700px){
+    .root-ctn{
+        padding: 100px 0px;
+    }.img-yellow{
+        width: 90px;
+        height: 90px;
+    }.img-blu{
+        width: 90px;
+        height: 90px;
+    }
+}
+      /* Start */
+.nav-title{
+ color: rgb(90, 56, 214);
+ font-weight: 900;
+ font-size: 2.1rem;
+}
+.nav-p{
+    margin: .5em auto;    
+    color: rgb(90, 56, 214); 
+    font-size: 1.8rem;
+}
+.nav-button{
+    font-size: 1.2rem;
+    background-color:  rgb(90, 56, 214);
+    color: #FFF;
+    border: none;
+    padding: .5em 2em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+   /* Main */
+main{
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+.main-ctn{
+    text-align: center;
+}
+.btn-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.2em;
+}
+.main-btn{
+    font-size: 0.9rem;
+    background-color: rgb(221, 224, 238);
+    margin: 1em;
+    margin-bottom: 1.5em;
+    border: .5px solid rgb(90, 56, 214);
+    border-radius: 10px;
+    padding: .5em 1em;
+    cursor: pointer;
+    color: rgb(90, 56, 214);    
+}
+@media(max-width : 600px){
+    main{
+        width: 90%;
+        font-size: 0.9rem;
+    }.main-btn{
+        font-size: 0.8rem;
+    }
+}
+hr{ 
+    width: 100%;
+    margin: 1em;
+}
+
+/* End Game */
+.red{
+   background-color: rgb(195, 40, 63,0.5);
+}
