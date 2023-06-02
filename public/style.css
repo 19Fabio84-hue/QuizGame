@@ -88,11 +88,15 @@ main{
     color: rgb(90, 56, 214);    
 }
 @media(max-width : 600px){
-    main{
-        width: 90%;
-        font-size: 0.9rem;
-    }.main-btn{
+    .btn-ctn{
+        display: grid;
+        grid-template: auto / 1fr 1fr;
+    }
+    .main{
+        width: 88%;
         font-size: 0.8rem;
+    }.main-btn{
+        font-size: 0.7rem;
     }
 }
 hr{ 
